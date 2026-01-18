@@ -161,7 +161,7 @@ header nav {
 #imgContacto div img {
 	width: 130px;
 	height: 130px;
-	border: 1px solid grey;
+	border: 1px solid;
 }
 #bienvenida {
 	height: 40vh;
@@ -427,7 +427,7 @@ body::-webkit-scrollbar {
 }
 
 #bienvenida div {
-	border: 1px solid ;
+	border: 1px solid;
 }
 
 #nav a{
@@ -523,7 +523,7 @@ body::-webkit-scrollbar {
 /*nav*/
 
 #bienvenida div {
-	border: 1px solid ;
+	border: 1px solid;
 	margin-top: 20px;
 }
 
@@ -637,12 +637,44 @@ footer address {
 }
 
 #bienvenida div {
-	border: 1px solid ;
+	border: 1px solid;
 }
+
+.somos h4 {
+	font-size: 14px; 
+	padding: 0px;
+}
+
+#categorias img {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+/*horarios*/
+.horarios {
+	height: 70vh;
+}
+
+.horarios h2 {
+	font-size: 40px;
+}
+
+.horarios p {
+	font-size: 14px;
+}
+
+.horariosA {
+	font-size: 14px;
+	padding: 7px 15px 10px;
+}
+
 
 .slide img {
 	height: 45vh;
 }
+
+
 
 
 }
