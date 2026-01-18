@@ -1,0 +1,648 @@
+#contenedor-video {
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+iframe {
+    width: 100%;
+    
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#btn-reproducir {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+/*redes*/
+.ws {
+	width: 40px;
+	position: fixed;
+	bottom: 20px;
+	z-index: 2;
+}
+
+.fc {
+	width: 40px;
+	position: fixed;
+	bottom: 60px;
+	z-index: 2;
+}
+
+.ms {
+	width: 40px;
+	position: fixed;
+	bottom: 98px;
+	z-index: 2;
+}
+
+.im {
+	width: 40px;
+	position: fixed;
+	bottom: 139px;
+	z-index: 2;
+}
+
+.ws:hover {
+	padding-left: 10px;
+	transition: 0.4s;
+}
+
+.ms:hover {
+	padding-left: 10px;
+	transition: 0.4s;
+}
+
+.fc:hover {
+	padding-left: 10px;
+	transition: 0.4s;
+}
+
+.im:hover {
+	padding-left: 10px;
+	transition: 0.4s;
+}
+
+
+			/* BOTON WS UBICACION y STREAMING*/
+.ws1 {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 50%;
+	width: 50px;
+	border: 2px solid #c1cdb2;
+	cursor: pointer;
+	transition: 0.4s;
+	z-index: 2;
+}
+
+.ubicacion {
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+	border-radius: 50%;
+	width: 50px;
+	border: 2px solid #c1cdb2;
+	cursor: pointer;
+	transition: 0.4s;
+	z-index: 2;
+}
+
+.st {
+	position: fixed;
+	bottom: 50px;
+	right: 70px;
+	border-radius: 50%;
+	width: 50px;
+	border: 2px solid #c1cdb2;
+	cursor: pointer;
+	transition: 0.4s;
+	z-index: 2;
+}
+
+.st:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.ws1:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+		/* HEADER (MENU, LOGO Y TEXTO) */
+.logo {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	border-radius: 10px;
+	z-index: 3;
+}
+header {
+	padding: 20px 0px;
+ 	height: auto;
+ 	max-width: 100%;
+	background: url(simon-lohmann-I_n_b44cqhk-unsplash.jpg);
+	background-position: center center;
+	background-size: cover;
+	border-bottom: rgba(255, 87, 51, 0.8) solid 1px;
+}
+
+
+header nav {
+	border-radius: 10px;
+	margin-bottom: 4rem;
+}
+.li {
+	font-size: 16px;
+}
+
+.li:hover {
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .30);
+	background: #dfdfdf;
+	border-radius: 4px;
+
+}
+
+
+#imgContacto div img {
+	width: 130px;
+	height: 130px;
+	border: 1px solid grey;
+}
+#bienvenida {
+	height: 40vh;
+}
+
+#bienvenida .col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#bienvenida h1 {
+	color: black;
+	font-weight: 600;
+	font-size: 70px;
+	font-family: 'Playfair Display', serif;
+	filter: drop-shadow(2px 2px #9f9f9f);
+}
+
+#bienvenida h3 {
+	color: white;
+	font-size: 22px;
+}
+
+/* SOMOS */
+
+.somos {
+
+background: #303030;
+height: 50vh;
+text-align: center;
+display: flex;
+align-items: center;
+padding: 0 6rem;
+
+}
+.somosDiv {
+	height: auto;
+	margin: auto;
+}
+
+.somos h4 {
+	font-size: 22px; 
+	text-align: center;
+	color: grey;
+	padding: 1em 3em;
+	border-radius: 20px;
+}
+
+
+/* categorias */
+#categorias {
+	text-align: center;
+	padding: 0 5%;
+}
+ 
+#categorias div {
+	margin: 34px auto;
+}
+
+#categorias a {
+	color: #606060;
+	text-decoration: none;
+}
+
+#categorias h3 {
+	font-size: 20px;
+}
+
+#categorias h4 {
+	font-size: 20px;
+}
+
+#categorias img {
+	width: 210px;
+	height: 210px;
+	transition: 0.3s;
+	aspect-ratio: 1/1; /* Mantiene las fotos cuadradas */
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+
+#categorias img:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+/*horarios*/
+.horarios {
+	text-align: center;
+	height: 90vh;
+}
+
+.horarios h2 {
+	font-size: 90px;
+	color: #555;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.horarios p {
+	font-size: 23px;
+	font-family: serif;
+}
+
+.mapaG iframe {
+	height: 200px;
+	width: 350px;
+	
+}
+
+.horariosA {
+	text-decoration: none;
+	font-size: 20px;
+	color: #efefef;
+	font-weight: 600;
+	background: grey;
+	padding: 7px 15px 10px;
+	border-radius: 10px;
+}
+
+.horarios a:hover{
+	font-size: 21px;
+	box-shadow: 0 .5rem 1rem #505050;
+	transition: 0.3s;
+}
+
+.icono {
+	color: red;
+}
+/*slide*/
+.slide {
+	width: 85%;
+	margin: 50px auto;
+	background: #bfbfbf;
+	border-radius: 10px;
+}
+.slide img {
+	height: 90vh;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 40px 0px;
+}
+
+.slide h5 {
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.slide p {
+	color: lab(88.87 0 0);
+	font-size: 20px;
+}
+
+.slide a {
+	background: #0f6191;
+	color: white;
+	font-size: 22px;
+	padding: 4px 20px;
+	border-radius: 3px;
+}
+
+
+/*formas*/
+#formas {
+	width: 90%;
+	background: #afafaf;
+	padding: 30px;
+	margin: 20px auto;
+	border-radius: 20px;
+}
+
+#formas .d-block {
+	padding: 10px;
+
+}
+#formas i {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	color: #303030;
+}
+
+#formas p {
+	padding: 0 30px;
+	font-size: 18px;
+	color: #404040;
+	text-align: center;
+	z-index: 1;
+
+}
+
+/*preguntas frecuentes*/
+
+#preguntasFrecuentes {
+	border: solid 2px grey;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0px;
+	z-index: 1;
+	border-radius: 20px;
+}
+
+#preguntasFrecuentes h3 {
+	text-align: center;
+	margin: 10px 0px;
+	color: #2190be;
+}
+
+#preguntasFrecuentes p {
+	font-size: 20px;
+	color: #12536d;
+	padding-left: 30px;
+	font-weight: 600;
+}
+
+#preguntasFrecuentes p:hover {
+	text-decoration: underline;
+}
+
+/*probando imagehover.io*/
+
+
+[class^='imghvr-'] figcaption, 
+[class*=' imghvr-'] figcaption {
+    background-color: rgba(255, 87, 51, 0.8) !important;
+}
+
+
+/*footer*/
+
+footer {
+	margin-top: 20px;
+	background: #303030;
+	padding: 4px 0px 1px 0px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+
+footer address {
+	font-size: 16px;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media screen and (max-width:1023px)
+{
+body::-webkit-scrollbar {
+	display: none;
+}
+
+#bienvenida div {
+	border: 1px solid ;
+}
+
+#nav a{
+	font-size: 20px;
+}
+
+
+#bienvenida h1 {
+	font-weight: 600;
+	font-size: 64px;
+}
+
+#bienvenida h3 {
+	color: white;
+	font-size: 26px;
+}
+
+.somos h4 {
+	font-size: 23px; 
+	padding: 1em 1em;
+}
+
+#categorias h3 {
+	font-size: 20px;
+}
+
+#categorias h4 {
+	font-size: 20px;
+}
+
+#categorias img {
+	width: 300px;
+	height: 300px;
+}
+
+
+/*horarios*/
+.horarios {
+	height: 50vh;
+	display: block;
+	align-content: center;
+}
+
+.horarios h2 {
+	font-size: 70px;
+}
+
+.horarios p {
+	font-size: 23px;
+}
+
+.horariosA {
+	font-size: 18px;
+	padding: 7px 15px 10px;
+}
+
+/*slide*/
+.slide {
+	width: auto;
+	margin: 0px auto;
+	background: #bfbfbf;
+	border-radius: 10px;
+}
+.slide img {
+	height: auto;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 40px 0px;
+}
+
+.slide h5 {;
+	font-size: 30px;
+}
+
+.slide p {
+	font-size: 20px;
+}
+
+.slide a {
+	font-size: 22px;
+}
+
+
+
+#preguntasFrecuentes p {
+	font-size: 20px;
+}
+
+}
+
+@media screen and (max-width:767px)  {
+/*nav*/
+
+#bienvenida div {
+	border: 1px solid ;
+	margin-top: 20px;
+}
+
+#bienvenida {
+	display: block;
+	height: 40vh;
+}
+
+#bienvenida h1 {
+	font-weight: 600;
+	font-size: 40px;
+}
+
+#bienvenida h3 {
+	color: white;
+	font-size: 20px;
+}
+
+.somos {
+	padding: 0 15%;
+	height: 40vh;
+}
+
+.somos h4 {
+	font-size: 18px; 
+	padding: 0px;
+}
+
+#categorias {
+	height: auto;
+}
+
+#categorias row {
+	margin: 0;
+}
+
+#categorias h3 {
+	font-size: 20px;
+}
+
+#categorias h4 {
+	font-size: 20px;
+}
+
+#categorias img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*formas*/|
+#formas {
+	padding: 10px;
+	margin: 5px auto;
+}
+
+#formas .d-block {
+	padding: 5px;
+
+}
+#formas i {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#formas p {
+	padding: 0 12px;
+	font-size: 14px;
+}
+
+/*preguntas frecuentes*/
+
+#preguntasFrecuentes {
+	border: solid 2px grey;
+	width: 80%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+#preguntasFrecuentes h3 {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+#preguntasFrecuentes p {
+	font-size: 20px;
+	color: #12536d;
+	padding-left: 30px;
+	font-weight: 600;
+}
+
+/*footer*/
+
+footer {
+	margin-top: 20px;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+
+footer address {
+	font-size: 16px;
+}
+
+}
+
+@media screen and (max-width:480px) {	
+
+#bienvenida {
+	display: block;
+}
+
+#bienvenida div {
+	border: 1px solid ;
+}
+
+.slide img {
+	height: 45vh;
+}
+
+
+}
